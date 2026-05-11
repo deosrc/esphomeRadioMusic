@@ -16,8 +16,8 @@ jobs:
     strategy:
       matrix:
         esphome_version:
+          # Test min_version and latest
           - 2026.2.0
-          - 2026.3.0
           - latest
     steps:
       - name: Check out the repository to the runner
