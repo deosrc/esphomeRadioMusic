@@ -16,7 +16,6 @@ jobs:
     strategy:
       matrix:
         esphome_version:
-          - 2026.1.0
           - 2026.2.0
           - 2026.3.0
           - latest
